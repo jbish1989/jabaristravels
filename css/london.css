@@ -1,0 +1,90 @@
+html, body {margin:0;
+        background-color:rgba(227,164,101,.4);
+        font-style: oblique;
+}
+
+header {text-align: center;
+}
+
+div {border:solid 2px;
+     height:100vh;
+}
+
+a {text-decoration: none;
+color: rgb(255,255,255);
+}
+
+
+#l1 {background-image: url("../img/london.JPG");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0;
+     background-color: rgb(227,164,101);
+}
+
+#l2 {background-image: url("../img/london2.JPG");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0;
+     background-color: rgb(227,164,101);
+}
+
+#l3 {background-image: url("../img/london3.JPG");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0;
+     background-color: rgb(227,164,101);
+}
+
+
+footer{ height: 100px;
+display: flex;
+justify-content: center;
+
+
+}
+
+a {text-decoration: none;
+color: rgb(255,255,255);
+}
+ p {line-height: 3px;
+}
+
+article {border-style: dashed;
+         background-color: rgb(227,164,101);
+       
+}
+
+@media only screen and (min-width:416px)
+
+{
+ * {box-sizing: border-box;
+ }
+html,body {height: 100%; 
+}
+header {height: 5%;
+}
+section {height: 80%;
+         display:flex;
+         
+         flex-wrap:wrap;
+         justify-content:space-around;
+        
+}
+
+div {width: 40%;
+height: 47.5%;
+
+}
+
+
+
+
+footer{ height:15%; 
+}
+
+}
+
