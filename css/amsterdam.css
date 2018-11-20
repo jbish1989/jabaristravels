@@ -42,7 +42,7 @@ color: rgb(255,255,255);
      background-color: rgb(227,164,101);
 }
 
-footer{ height: 100px;
+footer{ 
 display: flex;
 justify-content: center;
 
